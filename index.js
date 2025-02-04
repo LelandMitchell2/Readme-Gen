@@ -1,12 +1,12 @@
-// TODO: Include packages needed for this application
+// these are the dependencies that are required for this file to run
 import inquirer from 'inquirer';
 import fs from 'fs';
 import generateMarkdown from './utils/generateMarkdown.js';
 
-// TODO: Create an array of questions for user input
+// this is the array of questions that will be asked to the user
 const questions = ["What is the title of your project?", "What is the description of your project?", "What are the installation instructions for your project?", "What is the usage information for your project?", "What are the contribution guidelines for your project?", "What are the test instructions for your project?", "What license would you like to use for your project?", "What is your GitHub username?", "What is your email address?"];
 
-// TODO: create a inquirer prompt to ask the user the questions above
+// this is the inquirer prompt that will ask the user the questions and then write the answers to the README file using the generateMarkdown function from the generateMarkdown.js file in the utils folder
 inquirer.prompt([
     {
         type: "input",
@@ -60,7 +60,7 @@ inquirer.prompt([
         fs.writeFileSync("README1.md", generateMarkdown(response));
     });
 
-// TODO: Create a function to initialize app
+// this is the function that initializes the app
 function init() {}
 
 // Function call to initialize app

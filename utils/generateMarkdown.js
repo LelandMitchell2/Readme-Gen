@@ -1,5 +1,6 @@
-// TODO: Create a function that returns a license badge based on which license is passed in
-// If there is no license, return an empty string
+// this file will generate the markdown for the README file based on the user's responses to the inquirer prompts
+
+// this function will return the license badge based on the user's selection
 function renderLicenseBadge(license) {
     switch (license) {
         case "MIT":
@@ -15,8 +16,7 @@ function renderLicenseBadge(license) {
     }
 }
 
-// TODO: Create a function that returns the license link
-// If there is no license, return an empty string
+// this function will return the license link based on the user's selection
 function renderLicenseLink(license) {
     switch (license) {
         case "MIT":
@@ -32,15 +32,14 @@ function renderLicenseLink(license) {
     }
 }
 
-// TODO: Create a function that returns the license section of README
-// If there is no license, return an empty string
+// this function will return the license section of the README based on the user's selection
 function renderLicenseSection(license) { 
     return `## License
     ${renderLicenseBadge(license)}
     ${renderLicenseLink(license)}`;
 }
 
-// TODO: Create a function to generate markdown for README
+// this function will generate the markdown for the README file
 function generateMarkdown(data) {
   return `# ${data.title}
 
