@@ -1,7 +1,7 @@
 # ReadMe Gen
 
   ## Description
-  This application will create a README file using prompts that the user will answer.
+  An a pplication to generate ReadMe files
 
   ## Table of Contents
   * [Installation](#installation)
@@ -12,18 +12,17 @@
   * [Questions](#questions)
 
   ## Installation
-  Download REPO. In Bash navigate to file location and run node index.js and answer the prompts
+  download REPO, naviagate to file in bash and run node index.js
 
   ## Usage
-  This appliaction makes creating README files as easy as answering some questions
-  https://drive.google.com/file/d/1uNSQrsVVZDu8Cx4BFdhr3rdVNUHaBZyL/view
+  used to generate README files
 
   ## License
   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
   https://opensource.org/licenses/MIT
 
   ## Contributing
-  N/A
+  n/A
 
   ## Tests
   N/A
